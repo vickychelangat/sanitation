@@ -21,6 +21,14 @@ Button mybutton;
                 startActivity(myintent);
             }
         });
+        mybutton=findViewById(R.id.button);
+        mybutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myintent =new Intent(status.this,navigate_down.class);
+                startActivity(myintent);
+            }
+        });
     }
 
 }

@@ -37,7 +37,7 @@ Button mybutton;
         int s=item.getItemId();
         switch (s){
             case R.id.home:
-                Intent myintent1 =new Intent(menulist.this,MainActivity.class);
+                Intent myintent1 =new Intent(menulist.this,menulist.class);
                 startActivity(myintent1);
             case R.id.tracks:
                 Intent myintent2 =new Intent(menulist.this,tracks.class);

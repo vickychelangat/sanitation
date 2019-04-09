@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <activity android:name=".viewlist"></activity>
+        <activity android:name=".navigate_down"></activity>
+        <activity android:name=".viewlist" />
         <activity android:name=".status" />
         <activity android:name=".tracks" />
         <activity android:name=".menulist" />
